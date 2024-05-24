@@ -21,4 +21,4 @@ categoria = input("Digite a categoria do livro (ficção,  não ficção,  refer
 dias_atraso = int(input("Digite o número de dias em atraso:  "))
 
 print(categorizar_livro(titulo,  categoria))
-print(f"A multa é de R$ {calcular_multa(categoria,  dias_atraso): .2f}.")
+print("A multa é de R$", calcular_multa(categoria,   dias_atraso))
